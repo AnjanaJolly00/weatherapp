@@ -1,0 +1,33 @@
+name: weatherapp
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: any # Specify the version you need, e.g., ^5.0.0
+  intl: any # Specify the version you need, e.g., ^0.17.0
+  provider: any # Specify the version you need, e.g., ^6.0.0
+  google_fonts: any # Specify the version you need, e.g., ^3.0.1
+  dio_http_cache:
+    git: https://github.com/adhnan-e/dio-http-cache-new.git
+  dio: any # Specify the version you need, e.g., ^5.0.0
+
+  cupertino_icons: ^1.0.6
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
